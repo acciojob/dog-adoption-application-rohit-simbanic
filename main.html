@@ -7,6 +7,34 @@
 </head>
 
 <body>
+   <form action="#" method="POST">
+    <h2>Adoption Application</h2>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Name" required>
+
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" placeholder="Phone Number" required>
+
+    <label for="address">Address</label>
+    <input type="text" id="address" placeholder="Address" required>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+      <label for="checkbox">Have you ever lived with a Dog before?</label>
+    </div>
+
+    <label for="multiSelect">Please select your preferred breeds:</label>
+    <select id="multiSelect" multiple required>
+      <option value="golden_retriever">Golden Retriever</option>
+      <option value="poodle">Poodle</option>
+      <option value="beagle">Beagle</option>
+      <option value="german_shepherd">German Shepherd</option>
+      <option value="bulldog">Bulldog</option>
+    </select>
+
+    <input type="submit" id="submit" value="Submit">
+    </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
